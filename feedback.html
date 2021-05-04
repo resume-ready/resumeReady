@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback</title>
+  <link rel="stylesheet" href="./css/order.css">
+  <script src="https://kit.fontawesome.com/9e5d1913ca.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet" />
+</head>
+
+<body>
+  <main>
+
+
+    <div class="wrapper">
+      <div class="sidebar">
+        <img style="width: 120px; align-items: center; margin-left: 45px;" src="./img/logo2.png" alt="">
+        <ul>
+          <li><a href="./index.html"><i class="fas fa-home"></i> Home</a></li>
+          <li><a href="./menu.html"><i class="fas fa-bars"></i> Menu</a></li>
+          <li><a href="./feedback.html"><i class="fas fa-check-circle"></i> Feedback</a></li>
+          <li><a href="./AboutUs.html"><i class="far fa-id-badge"></i> About us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="esm">
+      <fieldset>
+        <div class="form">
+          <form id="form">
+            <h2>feedback</h2>
+            <input type="text" id="name" placeholder="name">
+
+            <i id="usericon" class="fas fa-user"></i>
+            <label class="labelcheck" for="anonymous">anonymous</label>
+            <input class="namecheck" type="checkbox" name="" id="anonymous">
+            <br>
+            <br>
+            <textarea name="feedback" id="feedback" cols="15" rows="8" required></textarea>
+        </div>
+
+        <div class="container">
+          <div class="text" style="text-align: center; color: white; font-size: small;">Thanks for FeedBacks</div>
+
+        </div>
+        <div>
+          <input id="submet" type="submit" value="Add your feedback"><br>
+        </div>
+        </form>
+
+      </fieldset>
+      <div id="commentsfield">
+      </div>
+    </div>
+    <br>
+
+
+
+
+  </main>
+  <script src="./js/order.js"></script>
+
+  <footer class="footer-area">
+    <div class="footer-bottom">
+      <p class="footer-text">
+        Copyright &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        All rights reserved | This project made by <span>Debugs catchers</span>.
+      </p>
+      <div class="footer-social">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-dribbble"></i></a>
+        <a href="#"><i class="fa fa-behance"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

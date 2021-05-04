@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Poppins&display=swap");
+body {
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/hero_bg_2.jpeg);
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+span {
+  color: #f8b600;
+}
+
+.wrapper {
+  display: flex;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+}
+.wrapper .sidebar {
+  background: rgba(0.01, 0.01, 0.1, 0.3);
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  padding: 30px 0px;
+  font-weight: 600;
+}
+.wrapper .sidebar h2 {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.wrapper .sidebar ul {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper .sidebar ul li {
+  list-style-type: none;
+  padding: 35px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  border-top: 1px solid rgba(225, 225, 225, 0.05);
+  text-align: center;
+}
+.wrapper .sidebar ul li a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.wrapper .sidebar ul li a .fas {
+  width: 25px;
+}
+.wrapper .sidebar ul li:hover {
+  background: #f8b600;
+  color: white;
+  transition: 0.5s;
+}
+
+/* stars rating*/
+
+/*feedback form*/
+fieldset {
+  margin-left: 34%;
+  margin-top: 100px;
+  width: 400px;
+  background-color: rgba(0.1, 0.1, 0.1, 0.7);
+  box-shadow: 0 0 8px rgba(250, 250, 250, 0.6);
+  border-radius: 10px;
+  border-color: #fff;
+}
+
+.esm {
+  display: grid;
+  grid-template-columns: 60% 1fr;
+}
+
+#commentsfield {
+  text-align: center;
+  margin-left: 0%;
+  margin-top: 100px;
+  height: fit-content;
+  width: 400px;
+  background-color: rgba(0.1, 0.1, 0.1, 0.7);
+  box-shadow: 0 0 8px rgba(250, 250, 250, 0.6);
+  border-radius: 10px;
+  border-color: #fff;
+  color: #fff;
+  overflow-y: scroll;
+  height: 600px;
+  cursor: grabbing;
+}
+
+fieldset form {
+  text-align: center;
+  padding: 25px 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+#usericon {
+  color: #fff;
+  margin-top: 20px;
+}
+label.labelcheck {
+  color: #fff;
+}
+
+.text {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+#name,
+#feedback {
+  font-family: "Poppins", sans-serif;
+}
+
+form input:not(#anonymous) {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #5c5c5c;
+  border-radius: 3px;
+  background: rgba(0.1, 0.1, 0.1, 0.7);
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: wheat;
+}
+
+form input:focus,
+form textarea:focus {
+  transition: all 0.3s ease;
+}
+
+form input:focus::placeholder,
+form textarea:focus::placeholder {
+  padding-left: 4px;
+  color: #f8b600;
+  transition: all 0.3s ease;
+}
+
+textarea {
+  border: 1px solid #5c5c5c;
+  border-radius: 3px;
+  background: rgba(0.1, 0.1, 0.1, 0.6);
+  width: 100%;
+  color: wheat;
+  font-size: large;
+  font-weight: bold;
+}
+
+/*submet button*/
+#submet {
+  background-color: #fff;
+  color: black;
+  color: fff;
+  border: none;
+  font-size: 17px;
+  font-weight: 600;
+  border-radius: 3px;
+  padding: 15px 35px;
+  margin-top: 15px;
+  cursor: pointer;
+  opacity: 0.7;
+  width: 100%;
+}
+
+#submet:hover {
+  opacity: 1;
+  background: #f8b600;
+}
+
+#comment {
+  margin-left: 42%;
+  margin-right: 42%;
+  text-decoration: none;
+  list-style-type: none;
+  color: fff;
+  background: blanchedalmond;
+  font-weight: bold;
+}
+
+.footer-area {
+  background: rgba(0, 0, 0, 0.8);
+  padding-top: 0px;
+}
+.footer-bottom {
+  margin-top: 10px;
+}
+.footer-text {
+  color: #fff;
+  font-size: 18px;
+  padding-left: 31.5%;
+}
+.footer-social {
+  width: 190px;
+  padding-left: 46.9%;
+}
+.footer-social i {
+  color: white;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.footer-social a :hover {
+  color: #f8b600;
+}
+.footer-social a i {
+  width: 20px;
+  display: inline-block;
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 0%;
+  padding: 5px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+#commentsfield::-webkit-scrollbar {
+  width: 15px;
+}
+
+#commentsfield::-webkit-scrollbar-track {
+  box-shadow: 0 0 8px rgb(250 250 250 / 60%);
+  border-radius: 10px;
+}
+
+#commentsfield::-webkit-scrollbar-thumb {
+  background: #fff;
+  border-radius: 15px;
+}
+
+#commentsfield::-webkit-scrollbar-thumb:hover {
+  background: #f8b600;
+  transition: all 0.3s ease 0s;
+}
